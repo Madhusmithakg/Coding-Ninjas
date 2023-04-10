@@ -3,7 +3,12 @@ Problem Statement:
 List down the student id along with their complete names.
 
 Information about the table:
-Table Student 
+Table Student
+
+Output Table Structure:
++---------+---------+------------+
+| stud_id | fname   | lname      |
++---------+---------+------------+
 */
 
 
@@ -12,8 +17,7 @@ SELECT stud_id, fname,lname FROM Student;
 
 
 
-
-
+OUTPUT:
 +---------+---------+------------+
 | stud_id | fname   | lname      |
 +---------+---------+------------+
